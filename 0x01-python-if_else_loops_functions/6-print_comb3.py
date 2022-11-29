@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 
-# Author - Bamidele Adefolaju
+for i in range(10):
 
+    for j in range(10):
 
+        if j != i:
 
-for digit1 in range(0, 10):
+            if i < j:
 
-    for digit2 in range(digit1 + 1, 10):
+                if i == 8 and j == 9:
 
-        if digit1 == 8 and digit2 == 9:
+                    print("{}{}".format(i, j))
 
-            print("{}{}".format(digit1, digit2))
+                else:
 
-        else:
-
-            print("{}{}".format(digit1, digit2), end=", ")
+                    print("{}{}".format(i, j), end=", ")

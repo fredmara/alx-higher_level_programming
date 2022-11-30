@@ -1,1 +1,2 @@
-This is the program to print hellow world in python
+this is my first python program as usual hello world.
+going forward towards being a software engineer

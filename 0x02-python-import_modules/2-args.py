@@ -6,8 +6,6 @@ if __name__ == "__main__":
 
     lenOfArg = len(argv)
 
-
-
     if lenOfArg == 1:
 
         print("0 arguments.")

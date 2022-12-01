@@ -6,8 +6,6 @@ if __name__ == "__main__":
 
     varLen = len(argv) - 1
 
-
-
     result = 0
 
     for i in range(1, varLen + 1):
